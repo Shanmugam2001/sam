@@ -1,0 +1,67 @@
+.App {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+
+  
+  .left {
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  .right {
+    width: 160%;
+    margin-left: 90px;
+  }
+  .Report{
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    
+  }
+  
+  table {
+    width: 110%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 5px; 
+    /* Add margin to separate buttons */
+  }
+
+
+ 
+
+ 
+  
