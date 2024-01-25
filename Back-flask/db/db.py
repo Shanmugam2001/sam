@@ -2,10 +2,10 @@ import pyodbc
 
 
 class Config:
-    server = '192.168.1.201'
+    server = '192.168.'
     database = 'samdbb2'
-    username = 'sa'
-    password = 'sam$123'
+    username = ''
+    password = ''
 
 # Construct the connection string
     connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
